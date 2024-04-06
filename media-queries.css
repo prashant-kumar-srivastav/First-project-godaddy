@@ -1,0 +1,632 @@
+
+@media screen and (max-width: 991px ) {
+    nav {
+       
+        padding: 15px;
+        color: white;
+        font-size: 18px;
+        overflow: hidden;
+        justify-content: space-between;
+      
+    }
+    
+    nav .first-menu li {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+   
+/* main menu */
+
+    .submenu {
+        display: flex;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        padding: 20px;
+    
+    }
+
+    .menusub {
+    
+        padding-left: 30px;
+    
+    }
+ /* sub menu */
+
+
+ .firstimage {
+    border-radius: 8px;
+    flex: 0 0 100%;
+    max-width: 100%;
+
+}
+
+.content {
+    padding: 30px 0px 0px 10px ;
+    flex: 0 0 100%;
+}
+
+
+.fast {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: 550;
+}
+
+.firstpara img{
+    vertical-align: top;
+}
+
+/* end body first part */
+
+/* start fourth part */
+
+
+
+.fourthone {
+    margin: 20px 30px;
+    max-width: calc(50% - 60px);
+    width: 100%;
+    
+}
+
+
+/* start fourth part */
+
+/* start fifth part */
+
+.fifth{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+
+  }
+
+  .fifthone{
+    width: 100%;
+    margin: 20px;  
+  }
+ 
+ 
+ .fifthtwo{    
+       margin-top: 20px;
+       width: 33%;
+ }
+
+ /* end fifth part */
+
+ /* 
+seven part start */
+
+.seven{
+    margin: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seven img {
+    width: 100%;
+    border-radius: 24px;
+
+}
+
+.seven h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    margin-top: 10px;
+
+}
+
+.seven p{
+    margin: 20px 0px 20px 0px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* end seven part
+
+/* start eight part */
+
+.hourse{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px  50px;
+    background-color: #F4F8FC;
+  
+}
+
+
+.hourseone p{
+    margin-bottom: 20px;
+    width: 240px;
+}
+
+.hourseone h2{
+    width: 240px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 550;
+    
+}
+
+.hourseone button{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    border-radius: 6px;
+    padding: 10px 40px 10px 40px;
+}
+
+.hoursetwo{ 
+    margin-top: 0px;
+   
+
+}
+
+.hoursetwo p{ 
+    margin-bottom: 20px;
+    text-align: justify;
+
+    
+}
+
+.hoursetwo hr{ 
+    margin: 20px 20px; 
+}
+
+.hoursetwo p img{
+    margin-right: 8px;
+    width: 15px;
+}
+
+/* end of eight parts */
+
+.image img{
+    max-width: 31%;
+    flex: 0 0 48%;
+}
+
+.image img:last-child{
+    max-width: 65%;
+}
+
+.features{
+    font-size: 36px;
+}
+    
+.needs{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    padding: 50px 100px 50px 100px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* end of nine part */
+
+.needsone h3{
+
+    font-size: 24px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+
+
+.needsonetwo{
+    padding-bottom: 42px;
+
+}
+
+/* end of eleven part */
+.footer{
+ 
+    padding: 20px;
+    font-size: 14px;
+   
+}
+
+
+.footer li {
+    margin-left: 62px;
+    vertical-align: middle;
+    
+}
+}
+
+
+@media screen and (max-width: 768px ) {
+
+.menu {
+        display: none;
+    }
+
+    /* start sub menu */
+
+.menusub {
+    padding-left: 350px;
+    display: none;
+}
+/* end of sub menu and all menu  */
+
+
+.fourthone button {
+    background-color: black;
+    padding: 15px 50px 15px 50px;
+
+}
+
+.third{
+    margin: 0px 30px;
+}
+
+.oneline p{
+    font-size: 18px;
+}
+
+.seven{
+    margin: 40px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.seven h2{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+
+/* start eight part */
+
+.hourse{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    background-color: #F4F8FC;
+}
+
+.hourseone{
+    text-align: center;
+}
+
+
+.hourseone p{
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.hourseone h2{
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 550;
+    
+}
+
+.hourseone button{
+
+    margin-bottom: 30px;
+}
+
+.hoursetwo{ 
+    margin-top: 50px;
+    margin: 0px; 
+    padding: 0px 0px 0px 0px;       
+}
+
+/* end of eight parts */
+
+.features{
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    justify-content: space-between;
+
+}
+
+.image img{
+    max-width: 30%;
+    flex: 0 0 30%;
+}
+
+.image img:last-child{
+    max-width: 64%;
+}
+
+.features{
+    font-size: 28px;
+}
+
+
+/* end of nine part */
+
+.needs{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    padding: 30px 15px ;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.needsone h3{
+
+    font-size: 18px;
+    padding-top: 40px;
+    font-weight: 550;
+}
+
+/* start 11 part */
+
+.banner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(201, 255, 237);
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.banner div {
+    flex: 0 0 50%;
+}
+.girl{
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+}
+
+.bannerone h3{
+    margin-top: 20px;
+    font-size: 32px;  
+    font-family: 'Times New Roman', Times, serif;  
+    line-height: 30px;
+}
+
+.bannerone p{
+    margin-top: 20px;
+     
+}
+
+.bannerone button{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 40px 10px 40px;
+
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: #2B2B2B;
+    color: white;
+    
+}
+
+.footer li {
+    margin-left:20px;
+    vertical-align: middle;
+}
+
+
+}
+
+@media screen and (max-width: 481px ){
+  
+.sticky{
+    display: none;
+}
+
+    .fourth{
+        margin-top: 40px;
+        padding: 10px;
+}
+    
+    .fourthone {
+       
+        border: 1px solid rgb(209, 209, 209);
+        padding: 10px 10px;
+        margin: 10px auto;
+    }
+    
+    .fourthone h3{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }   
+    .fourthone button{
+     
+        padding: 10px 20px 10px 20px;
+    }
+    
+/* start fifth part */
+
+.fifth{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    padding: 20px;
+    margin: 20px;
+   }
+
+   .fifthone{
+    width: 100%;
+}
+
+ .fifthone div h3{
+    margin: 20px 0px;
+    font-size: 24px;
+}
+.fifthtwo{
+    margin-left: 0px;
+    font-weight: 300;
+    padding-left: 0px;
+    width: 100%;
+
+}
+.fifthtwo p{
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* end fifth part */
+
+/* start sixth part */
+
+.oneline{
+    margin-top: 0px;
+    padding: 20px 50px;
+}
+
+.oneline p{
+      font-size: 16px;
+}
+
+.oneline a{
+    font-size: 18px;
+}
+
+/* end sixth part */
+
+/* seven part start */ */
+
+.seven{
+    margin: 40px 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seven img {
+    max-width: 100%;
+    border-radius: 24px;
+
+}
+
+.seven h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.seven p{
+    margin: 10px 0px 20px 0px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.seventwo {
+    flex-direction: column-reverse;
+}
+
+.sevenone, .seventwo, .seventhree, .sevenfive{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    padding: 20px;
+
+}
+
+/* /* end seven part */
+
+.image{
+    width: 100%;
+   padding: 100px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.image img {
+    flex: 0 0 30%;
+}
+
+/* end of eight parts */
+
+.features{
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    justify-content: space-between;
+
+}
+
+.image{
+    width: 100%;
+   padding: 100px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.image img {
+    flex: 0 0 32%;
+}
+
+
+/* end of nine part */
+
+
+
+.needsone h3{
+
+    font-size: 16px;
+    padding-top: 40px;
+    font-weight: 550;
+}
+
+.needs .needsone p{
+    font-size: 12px;
+
+}
+.features{
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    justify-content: space-between;
+
+}
+
+.needsone button {
+    padding: 10px 20px 10px 20px;
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: #2B2B2B;
+    color: white;
+    
+}
+
+.footer li {
+    margin-left: 0px auto;
+    vertical-align: middle;
+}
+
+
+}

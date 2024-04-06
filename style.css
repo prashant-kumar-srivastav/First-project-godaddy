@@ -1,0 +1,603 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+}
+
+/* Menubar  */
+
+nav {
+    background-color: #2B2B2B;
+    padding: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    overflow: hidden;  
+    
+}
+
+nav ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: inline-block
+}
+
+nav li {
+    margin-left: 40px;
+    vertical-align: middle;
+
+}
+
+.menu {
+    padding-left: 150px;
+}
+
+.hamburger{
+    display: none;
+}
+
+/* end of main menu  */
+
+/* start sub menu */
+
+.submenu {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+
+}
+
+.submenu li {
+    display: inline-block;
+
+}
+
+.submenu ul {
+    margin-left: 50px;
+
+}
+
+.menusub {
+
+    padding-left: 350px;
+
+}
+
+.menusub li {
+    margin-left: 20px;
+
+}
+
+/* end of sub menu and all menu  */
+
+/* start body first part */
+
+.firstimage {
+    border-radius: 8px;
+    flex: 0 0 50%;
+    max-width: 50%;
+
+}
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 40px;
+}
+
+.content {
+    flex: 0 0 50%;
+    padding-left: 40px;
+}
+
+.webhosting {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fast {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    font-weight: 550;
+}
+
+.trusted {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.uptime {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration: dotted solid black;
+    margin-bottom: 8px;
+}
+
+.firstbtn {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 4px;
+    margin: 10px 0px 10px 0px;
+}
+
+.firstpara {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+p a {
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+/* end body first part */
+
+/* start second part */
+
+.sticky{
+   background-color: white;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   position: sticky;
+   top: 0px;
+}
+
+.stickymenu {
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 40px 40px;
+    background-color: #E8EAEB;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.stickymenu li {
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.stickymenu li:hover {
+
+    background-color: black;
+    color: white;
+    width: fit-content;
+     
+}
+
+
+
+/* end second part */
+
+/* start third part */
+
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: middle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 42px;
+    box-shadow: 4px 2px 4px;
+    max-width: 760px;
+}
+
+.thirdone{
+    padding: 10px 15px 10px 15px;
+    border-radius: 42px;
+    
+}
+
+.thirdone:hover{
+    background-color: black;
+    color: white;
+  
+}
+
+
+
+/* End third part */
+
+/* start fourth part */
+
+.fourth{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fourthone {
+   
+    border: 1px solid rgb(209, 209, 209);
+    padding: 50px 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.fourthone h3{
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.fourthone ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.fourthoneone{
+    background-color: #FFEEA9;
+    padding: 2px;
+    
+}
+
+.fourthonetwo{
+    text-decoration: line-through;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.fourthone p{
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.fourthone button{
+    background-color: black;
+    padding: 15px 120px 15px 120px;
+    border-radius: 6px;
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* end fourth part */
+
+/* start fifth part */
+
+.fifth{
+   display: flex;
+   margin-top: 60px;
+   background-color: #F5F7F8;
+   padding: 40px;
+   margin: 60px;
+   border-radius: 12px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fifthone{
+    width: 25%;
+}
+.fifthone span{
+    background-color: #1BDBDB;
+    padding: 4px;
+    border-radius: 4px;
+    margin-bottom: 0px;
+}
+
+.fifthone div h3{
+    margin: 20px 0px;
+    font-size: 32px;
+}
+
+
+.fifthtwo{
+    margin-left: 0 auto;
+    font-weight: 300;
+    padding-left: 20px;
+    width: 15%;
+
+}
+
+.fifthtwo img{
+    width: 22px;
+    margin-bottom: 10px;
+    
+}
+
+.fifthtwo h4{
+    margin-top: -5px;
+    font-weight: 600;
+}
+
+.fifthtwo p{
+    margin-top: 10px;
+}
+
+/* end fifth part */
+
+/* start sixth part */
+
+.oneline{
+    width: 100%;
+    margin-top: 0px;
+    background-color: #F5F7F8;
+    padding: 50px 100px 50px 100px;
+}
+
+.oneline p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.oneline a{
+    font-size: 18px;
+}
+
+
+/* end sixth part */
+/* 
+seven part start */
+
+.seven{
+    margin: 40px 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seven img {
+    max-width: 100%;
+    border-radius: 24px;
+
+}
+
+.seven h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 46px;
+    margin-top: 40px;
+
+}
+
+.seven p{
+    margin: 40px 0px 50px 0px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.seventwo {
+    flex-direction: column-reverse;
+}
+
+.sevenone, .seventwo, .seventhree, .sevenfive{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    padding: 20px;
+
+}
+
+/* end seven part
+
+/* start eight part */
+
+.hourse{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px 0px 50px 100px;
+    background-color: #F4F8FC;
+}
+
+
+.hourseone p{
+    margin-bottom: 40px;
+}
+
+.hourseone h2{
+    width: 180%;
+    margin-bottom: 40px;
+    font-size: 45px;
+    font-weight: 550;
+    
+}
+
+.hourseone button{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    border-radius: 6px;
+    padding: 10px 40px 10px 40px;
+}
+
+.hoursetwo{ 
+    margin-top: 50px;
+    margin-left: 300px; 
+    padding: 0px 0px 0px 21px;       
+}
+
+.hoursetwo p{ 
+    margin-bottom: 20px; 
+}
+
+.hoursetwo hr{ 
+    margin-bottom: 20px; 
+}
+
+.hoursetwo p img{
+    margin-right: 8px;
+    width: 20px;
+}
+
+/* end of eight parts */
+
+.features{
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    justify-content: space-between;
+
+}
+
+.image{
+    width: 100%;
+   padding: 100px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.image img {
+    flex: 0 0 32%;
+}
+
+
+/* end of nine part */
+
+.needs{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    padding: 50px 100px 50px 100px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.needsone h3{
+
+    font-size: 34px;
+    padding-top: 40px;
+    font-weight: 550;
+}
+
+.needsone button{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px 40px 10px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.needsonetwo{
+    padding-bottom: 42px;
+
+}
+
+/* end of tenth part */
+
+.banner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(201, 255, 237);
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.banner div {
+    flex: 0 0 50%;
+}
+.girl{
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+}
+
+.bannerone h3{
+    margin-top: 20px;
+    font-size: 65px;  
+    font-family: 'Times New Roman', Times, serif;  
+    line-height: 60px;
+}
+
+.bannerone p{
+    margin-top: 20px;
+     
+}
+
+.bannerone button{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 40px 10px 40px;
+}
+
+
+/* end of eleven part */
+
+.upper{
+   
+    display: flex;
+    padding: 20px;
+    
+    background-color: #1BDBDB;
+    
+}
+
+.upper h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-left: 4px;
+    padding-top: 6px;
+}
+
+.footer{
+    display: flex;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: #2B2B2B;
+    color: white;
+    
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer li {
+    display: inline-block
+}
+
+.footer li {
+    margin-left: 120px;
+    vertical-align: middle;
+}
+
+footer p{
+    padding: 20px;
+    text-align: center;
+    background-color: #2B2B2B;
+    color: white;
+}
+
