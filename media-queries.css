@@ -436,9 +436,11 @@ seven part start */
         margin-top: 40px;
         padding: 10px;
 }
-    
+
     .fourthone {
-        max-width: 100%;
+    max-width: 100%;
+}
+    .fourthone {
         border: 1px solid rgb(209, 209, 209);
         padding: 10px 10px;
         margin: 10px auto;
